@@ -33,9 +33,10 @@ URL="$(hostname -i)"
 curl -sfL https://get.k3s.io | sh -s - --docker --bind-address $URL
 sudo kubectl cluster-info
 sudo kubectl get nodes -o wide
-sudo k3s kubectl get pods --all-namespaces
-sudo docker ps
 
 TOKEN="$(sudo cat /var/lib/rancher/k3s/server/node-token)"
 
 echo "curl -sfL https://get.k3s.io | K3S_URL=https://$URL:6443 K3S_TOKEN='$TOKEN' sh -s - --docker
+
+#sudo k3s kubectl get pods --all-namespaces
+#sudo docker ps
