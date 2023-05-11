@@ -9,3 +9,9 @@ This script installs Docker and a K3s master (server) on ARM64 running Linux.  T
 The script can be executed from the edge/VM by running the following command:
 
 `wget -O - https://raw.githubusercontent.com/LukeRParker/bigbang/main/bigbangkubernetes.sh | sudo bash`
+
+***TODO....***
+
+- [ ] Create a version of the script for worker nodes.
+
+- [ ] Look at dashboards and accessing nodes within the cluster.
