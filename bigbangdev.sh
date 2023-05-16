@@ -18,3 +18,7 @@ python3.9 pip install huggingface-hub
 python3.9 pip install openai
 python3.9 pip install sqlalchemy 
 python3.9 pip install scikit-learn 
+python3.9 pip install wikipedia
+
+
+git lfs clone https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GGML/blob/main/GPT4All-13B-snoozy.ggml.q5_0.bin
