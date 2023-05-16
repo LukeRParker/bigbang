@@ -16,5 +16,5 @@ pip install sqlalchemy
 pip install scikit-learn 
 pip install wikipedia
 
-
-git clone https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GGML/blob/main/GPT4All-13B-snoozy.ggml.q5_0.bin
+git lfs install
+git clone git@hf.co:TheBloke/GPT4All-13B-snoozy-GGML
