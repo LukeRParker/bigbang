@@ -17,4 +17,4 @@ pip install scikit-learn
 pip install wikipedia
 
 git lfs install
-git clone git@hf.co:TheBloke/GPT4All-13B-snoozy-GGML
+git clone git@hf.co:TheBloke/GPT4All-13B-snoozy-GGML .
