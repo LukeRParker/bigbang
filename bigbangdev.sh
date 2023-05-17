@@ -20,5 +20,5 @@ sudo mkdir model
 
 python3
 from huggingface_hub import hf_hub_download
-hf_hub_download(repo_id="TheBloke/GPT4All-13B-snoozy-GGML", filename="GPT4All-13B-snoozy.ggml.q5_0.bin", local_dir="model")
+hf_hub_download(repo_id="TheBloke/GPT4All-13B-snoozy-GGML", filename="GPT4All-13B-snoozy.ggml.q5_0.bin", local_dir="./model")
 
